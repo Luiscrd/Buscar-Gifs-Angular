@@ -25,6 +25,7 @@ export class SidebarComponent {
   limpiar(){
 
     this.gifsService.borrar()
+    localStorage.clear()
 
   }
 }
