@@ -10,8 +10,11 @@ export class SidebarComponent {
 
   constructor( private gifsService: GifsService ) {}
 
-  buscar(item:string){
+  public selectedIndex: number = 0;
 
+  buscar(item:string, ind:number){
+
+    this.selectedIndex = ind;
     this.gifsService.mostrarGifs(item);
 
   }

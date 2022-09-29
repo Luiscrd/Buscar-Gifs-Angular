@@ -17,6 +17,13 @@
   color:hsl(180, 2%, 17%);
 }
 
+.active{
+  background-color: #00B6B5;
+  border: #00B6B5;
+  color: #3E4141;
+  font-weight: bold;
+}
+
 .list-group-item{
   cursor: pointer;
 }
